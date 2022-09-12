@@ -77,6 +77,7 @@ body._lock {
 	left: 0;
 	animation-name: show_header;
 	animation-duration: 0.3s;
+	animation-timing-function: ease-in-out;
 	background-color: #000000;
 }
 @keyframes show_header {
@@ -344,6 +345,10 @@ body._lock {
 	line-height: 150%;
 	letter-spacing: 0.15em;
 	text-transform: uppercase;
+}
+.about__item > .item-about__title {
+	display: inline-block;
+	color: #000000;
 }
 .item-about__subtitle {
 	font-weight: 400;
