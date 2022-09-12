@@ -371,7 +371,7 @@ body._lock {
 		flex: 0 1 50%;
 	}
 	.about__column:not(:last-child) {
-		margin: 0px 0px 12px 0px;
+		margin: 0px 0px 21px 0px;
 	}
 	.about__column:last-child {
 		flex: 0 1 100%;
@@ -387,6 +387,9 @@ body._lock {
 		position: relative;
 		z-index: 2;
 		margin-top: -75px;
+	}
+	.about__column:not(:last-child) {
+		margin: 0px 0px 12px 0px;
 	}
 	.about__item {
 		padding: 25px 20px;
