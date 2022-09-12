@@ -293,9 +293,19 @@ body._lock {
 	width: 100%;
 	height: 100%;
 }
+@media (max-width: 1279px) {
+	.hero__content {
+		padding: 150px 0px 190px 0px;
+	}
+}
+@media (max-width: 991px) {
+	.hero__content {
+		padding: 150px 0px 170px 0px;
+	}
+}
 @media (max-width: 767px) {
 	.hero__content {
-		padding: 150px 0px 115px 0px;
+		padding: 150px 0px 145px 0px;
 	}
 	.hero__title {
 		max-width: none;
